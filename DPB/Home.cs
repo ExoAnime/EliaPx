@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CefSharp;
 using CefSharp.WinForms;
-
+using Emgu.CV;
+using Emgu.CV.UI;
+using Emgu.Util;
 
 namespace DPB
 {
