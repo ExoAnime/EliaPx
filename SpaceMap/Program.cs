@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EliaPx
+namespace SpaceMap
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace EliaPx
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Form1());
         }
     }
 }
